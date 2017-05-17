@@ -1,0 +1,20 @@
+Node - Commands will be runned without quotes"".
+
+1. Open Node.js command prompt.
+
+2. Navigate to this project folder - "cd folder_path" - eg: "cd d:\minify_images"
+
+3. Run "npm install" to install all the dependencies.
+
+	4.1. Start the app by typing - "npm start"
+		This will start the app where original images is backed up.
+
+		(or)
+		
+	4.2.  Start the app by typing - "node app-bk.js"
+			This will start the app where original images is removed.
+		
+		
+5. Copy supported images (jpg, png, svg) to images_to_minify/ folder to minify images seamlessly.
+
+6. Minified images will be found in images/ folder.
